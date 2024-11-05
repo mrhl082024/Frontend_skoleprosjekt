@@ -1,0 +1,14 @@
+#TopPageTitle {
+  display: flex;
+  justify-content: center;
+}
+
+#Navbar {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+p {
+  margin: 3rem;
+}
