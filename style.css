@@ -4,13 +4,13 @@
   margin: 0px;
 }
 
-#TopPageImg {
+#topPageImg {
   min-width: 100%;
   max-width: 100%;
   height: 20svh;
 }
 
-#Navbar {
+#navbar {
   max-width: 100%;
   height: 6svh;
   border: 4px ridge rgb(0, 0, 0);
@@ -29,30 +29,51 @@ button {
   border: none;
 }
 
-#PageBackground {
+#pageBackground {
   background-image: url(./Pictures_Homepage/ds3_ashes_city.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#PageLayout {
+#pageLayout {
   display: flex;
 }
 
-.reklameboks {
-  width: 14%;
-  max-height: 100svh;
-  min-height: 100svh;
-  background-color: rgba(157, 112, 112, 0.63);
+#reklameBoksLeft {
+  width: 12%;
+  max-height: 80svh;
 }
 
-#PageContent {
+#reklameBoksRight {
+  width: 12%;
+  max-height: 80svh;
+}
+
+#pageContent {
   background-image: url(./Pictures_Homepage/75xZ.gif);
   background-repeat: no-repeat;
   background-position: center;
   background-position: top;
   background-size: contain;
-  width: 76%;
+  width: 70%;
   min-height: 80svh;
   max-height: 80svh;
+}
+
+#pillarLeft {
+  width: 3%;
+  background-image: radial-gradient(rgb(213, 0, 0), rgb(0, 0, 0));
+  border: 4px ridge rgb(0, 0, 0);
+}
+
+#pillarRight {
+  background-image: radial-gradient(rgb(213, 0, 0), rgb(0, 0, 0));
+  border: 4px ridge rgb(0, 0, 0);
+  width: 3%;
+}
+
+#footer {
+  background-color: #222;
+  width: 100%;
+  height: 8rem;
 }
