@@ -1,3 +1,14 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+#TopPageImg {
+  max-width: 100svw;
+  min-width: 100svw;
+  max-height: 20svh;
+}
+
 #TopPageTitle {
   display: flex;
   justify-content: center;
