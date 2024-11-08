@@ -4,10 +4,10 @@
   margin: 0px;
 }
 
-#header {
-  text-align: center;
-  font-size: x-large;
-  background-color: #222;
+#TopPageImg {
+  min-width: 100%;
+  max-width: 100%;
+  height: 20svh;
 }
 
 #Navbar {
@@ -25,11 +25,24 @@
 }
 
 button {
-  height: 1.5rem;
-  padding-right: 12px;
-  padding-left: 12px;
-  background-image: radial-gradient(red, black);
-  border-radius: 5px;
-  border-bottom: linen;
-  color: antiquewhite;
+  background-color: transparent;
+  border: none;
+}
+
+#PageBackground {
+  display: flex;
+}
+
+.reklameboks {
+  width: 20%;
+  max-height: 100svh;
+  min-height: 100svh;
+  background-color: rgb(157, 112, 112);
+}
+
+#PageContent {
+  background-color: rgb(207, 31, 31);
+  width: 60%;
+  min-height: 100svh;
+  max-height: 100svh;
 }
