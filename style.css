@@ -30,7 +30,9 @@ button {
 }
 
 #PageBackground {
-  display: flex;
+  background-image: url(./Pictures_Homepage/ds3_ashes_city.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .reklameboks {
@@ -42,7 +44,11 @@ button {
 
 #PageContent {
   background-color: rgb(207, 31, 31);
+  background-image: url(./Pictures_Homepage/75xZ.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
   width: 60%;
-  min-height: 100svh;
-  max-height: 100svh;
+  min-height: 80svh;
+  max-height: 80svh;
 }
