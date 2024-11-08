@@ -14,6 +14,8 @@
   max-width: 100%;
   height: 6svh;
   border: 4px ridge rgb(0, 0, 0);
+  border-left: none;
+  border-right: none;
   background-image: radial-gradient(rgb(213, 0, 0), rgb(0, 0, 0));
   display: flex;
   flex-direction: row;
@@ -25,8 +27,20 @@
 }
 
 button {
-  background-color: transparent;
-  border: none;
+  background-color: rgba(255, 90, 0, 0.4);
+  padding-left: 16px;
+  padding-right: 16px;
+  border: ridge rgb(0, 0, 0);
+  border-top: none;
+  border-bottom: none;
+  color: #000000;
+  font-size: larger;
+  font-weight: 500;
+  font-family: "fantasy";
+}
+
+input {
+  background-color: #3e3e3e;
 }
 
 #pageBackground {
@@ -50,11 +64,6 @@ button {
 }
 
 #pageContent {
-  background-image: url(./Pictures_Homepage/75xZ.gif);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-position: top;
-  background-size: contain;
   width: 70%;
   min-height: 80svh;
   max-height: 80svh;
@@ -64,16 +73,33 @@ button {
   width: 3%;
   background-image: radial-gradient(rgb(213, 0, 0), rgb(0, 0, 0));
   border: 4px ridge rgb(0, 0, 0);
+  border-top: none;
+  border-bottom: none;
 }
 
 #pillarRight {
   background-image: radial-gradient(rgb(213, 0, 0), rgb(0, 0, 0));
   border: 4px ridge rgb(0, 0, 0);
   width: 3%;
+  border-top: none;
+  border-bottom: none;
 }
 
 #footer {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 5rem;
+  padding-right: 5rem;
   background-color: #222;
   width: 100%;
   height: 8rem;
+  border-top: 4px ridge rgb(0, 0, 0);
+}
+
+ul {
+  color: rgb(200, 200, 200);
+}
+
+li {
+  margin: 1rem;
 }
